@@ -17,6 +17,9 @@
 		BFA42AC12AC585B1002FAE1F /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42AC02AC585B1002FAE1F /* AFButton.swift */; };
 		BFA42AC32AC5883B002FAE1F /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42AC22AC5883B002FAE1F /* FrameworkGridViewModel.swift */; };
 		BFA42AC52AC593F6002FAE1F /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42AC42AC593F6002FAE1F /* SafariView.swift */; };
+		BFA42AC82AC5A7EC002FAE1F /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42AC72AC5A7EC002FAE1F /* BarcodeScannerView.swift */; };
+		BFA42ACB2AC5AC8A002FAE1F /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42ACA2AC5AC8A002FAE1F /* ScannerVC.swift */; };
+		BFA42ACD2AC5C044002FAE1F /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42ACC2AC5C044002FAE1F /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,10 @@
 		BFA42AC02AC585B1002FAE1F /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		BFA42AC22AC5883B002FAE1F /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		BFA42AC42AC593F6002FAE1F /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		BFA42AC72AC5A7EC002FAE1F /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		BFA42AC92AC5A9F0002FAE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BFA42ACA2AC5AC8A002FAE1F /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		BFA42ACC2AC5C044002FAE1F /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +70,8 @@
 		BFA42AA92AC53260002FAE1F /* Fundamentals */ = {
 			isa = PBXGroup;
 			children = (
+				BFA42AC92AC5A9F0002FAE1F /* Info.plist */,
+				BFA42AC62AC5A76D002FAE1F /* BarCodeScanner */,
 				BFA42AB92AC57351002FAE1F /* AppleFrameWork */,
 				BFA42AB82AC53423002FAE1F /* WeatherApp */,
 				BFA42AAA2AC53260002FAE1F /* FundamentalsApp.swift */,
@@ -99,6 +108,16 @@
 				BFA42AC42AC593F6002FAE1F /* SafariView.swift */,
 			);
 			path = AppleFrameWork;
+			sourceTree = "<group>";
+		};
+		BFA42AC62AC5A76D002FAE1F /* BarCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				BFA42AC72AC5A7EC002FAE1F /* BarcodeScannerView.swift */,
+				BFA42ACA2AC5AC8A002FAE1F /* ScannerVC.swift */,
+				BFA42ACC2AC5C044002FAE1F /* ScannerView.swift */,
+			);
+			path = BarCodeScanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +194,12 @@
 				BFA42ABF2AC5800D002FAE1F /* FrameWorkDetailView.swift in Sources */,
 				BFA42ABD2AC57AD0002FAE1F /* FrameworkGridView.swift in Sources */,
 				BFA42ABB2AC57845002FAE1F /* Framework.swift in Sources */,
+				BFA42AC82AC5A7EC002FAE1F /* BarcodeScannerView.swift in Sources */,
+				BFA42ACB2AC5AC8A002FAE1F /* ScannerVC.swift in Sources */,
 				BFA42AC52AC593F6002FAE1F /* SafariView.swift in Sources */,
 				BFA42AC12AC585B1002FAE1F /* AFButton.swift in Sources */,
 				BFA42AC32AC5883B002FAE1F /* FrameworkGridViewModel.swift in Sources */,
+				BFA42ACD2AC5C044002FAE1F /* ScannerView.swift in Sources */,
 				BFA42AAB2AC53260002FAE1F /* FundamentalsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +332,8 @@
 				DEVELOPMENT_TEAM = 8ACASK54TM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fundamentals/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera to scan the bar code";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +363,8 @@
 				DEVELOPMENT_TEAM = 8ACASK54TM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fundamentals/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera to scan the bar code";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
