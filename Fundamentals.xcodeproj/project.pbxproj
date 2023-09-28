@@ -51,8 +51,8 @@
 		BFA42AA92AC53260002FAE1F /* Fundamentals */ = {
 			isa = PBXGroup;
 			children = (
+				BFA42AB82AC53423002FAE1F /* WeatherApp */,
 				BFA42AAA2AC53260002FAE1F /* FundamentalsApp.swift */,
-				BFA42AAC2AC53260002FAE1F /* ContentView.swift */,
 				BFA42AAE2AC53262002FAE1F /* Assets.xcassets */,
 				BFA42AB02AC53262002FAE1F /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				BFA42AB12AC53262002FAE1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFA42AB82AC53423002FAE1F /* WeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				BFA42AAC2AC53260002FAE1F /* ContentView.swift */,
+			);
+			path = WeatherApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
