@@ -11,6 +11,12 @@
 		BFA42AAD2AC53260002FAE1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42AAC2AC53260002FAE1F /* ContentView.swift */; };
 		BFA42AAF2AC53262002FAE1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA42AAE2AC53262002FAE1F /* Assets.xcassets */; };
 		BFA42AB22AC53262002FAE1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA42AB12AC53262002FAE1F /* Preview Assets.xcassets */; };
+		BFA42ABB2AC57845002FAE1F /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42ABA2AC57845002FAE1F /* Framework.swift */; };
+		BFA42ABD2AC57AD0002FAE1F /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42ABC2AC57AD0002FAE1F /* FrameworkGridView.swift */; };
+		BFA42ABF2AC5800D002FAE1F /* FrameWorkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42ABE2AC5800D002FAE1F /* FrameWorkDetailView.swift */; };
+		BFA42AC12AC585B1002FAE1F /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42AC02AC585B1002FAE1F /* AFButton.swift */; };
+		BFA42AC32AC5883B002FAE1F /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42AC22AC5883B002FAE1F /* FrameworkGridViewModel.swift */; };
+		BFA42AC52AC593F6002FAE1F /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42AC42AC593F6002FAE1F /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		BFA42AAC2AC53260002FAE1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFA42AAE2AC53262002FAE1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA42AB12AC53262002FAE1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFA42ABA2AC57845002FAE1F /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		BFA42ABC2AC57AD0002FAE1F /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		BFA42ABE2AC5800D002FAE1F /* FrameWorkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkDetailView.swift; sourceTree = "<group>"; };
+		BFA42AC02AC585B1002FAE1F /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		BFA42AC22AC5883B002FAE1F /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		BFA42AC42AC593F6002FAE1F /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 		BFA42AA92AC53260002FAE1F /* Fundamentals */ = {
 			isa = PBXGroup;
 			children = (
+				BFA42AB92AC57351002FAE1F /* AppleFrameWork */,
 				BFA42AB82AC53423002FAE1F /* WeatherApp */,
 				BFA42AAA2AC53260002FAE1F /* FundamentalsApp.swift */,
 				BFA42AAE2AC53262002FAE1F /* Assets.xcassets */,
@@ -73,6 +86,19 @@
 				BFA42AAC2AC53260002FAE1F /* ContentView.swift */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		BFA42AB92AC57351002FAE1F /* AppleFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				BFA42ABA2AC57845002FAE1F /* Framework.swift */,
+				BFA42ABC2AC57AD0002FAE1F /* FrameworkGridView.swift */,
+				BFA42ABE2AC5800D002FAE1F /* FrameWorkDetailView.swift */,
+				BFA42AC02AC585B1002FAE1F /* AFButton.swift */,
+				BFA42AC22AC5883B002FAE1F /* FrameworkGridViewModel.swift */,
+				BFA42AC42AC593F6002FAE1F /* SafariView.swift */,
+			);
+			path = AppleFrameWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +172,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFA42AAD2AC53260002FAE1F /* ContentView.swift in Sources */,
+				BFA42ABF2AC5800D002FAE1F /* FrameWorkDetailView.swift in Sources */,
+				BFA42ABD2AC57AD0002FAE1F /* FrameworkGridView.swift in Sources */,
+				BFA42ABB2AC57845002FAE1F /* Framework.swift in Sources */,
+				BFA42AC52AC593F6002FAE1F /* SafariView.swift in Sources */,
+				BFA42AC12AC585B1002FAE1F /* AFButton.swift in Sources */,
+				BFA42AC32AC5883B002FAE1F /* FrameworkGridViewModel.swift in Sources */,
 				BFA42AAB2AC53260002FAE1F /* FundamentalsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
